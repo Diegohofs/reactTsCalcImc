@@ -54,10 +54,11 @@ export const ContentLeft = styled.div`
     h1 {
         margin: 0;
         font-size: 2.5rem;
+        padding-bottom: 1rem;
     }
 
     p {
-        margin-bottom: 2.5rem;
+        margin-bottom: 1.5rem;
     }
 
     @media (max-width: 770px) {
@@ -136,7 +137,6 @@ export const BigBoxContainer = styled.div`
     flex: 1;
     display: grid;
     gap: 20px;
-
 `
 
 export const ArrowLeftImg = styled.div`
